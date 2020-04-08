@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figure {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    box-shadow: 3px 5px 5px black;
+    padding: 25px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 5px;
+}
+
+thead, tfoot {
+    background-color: #E31837;
+    color: white;
+}
+
+thead, tbody {
+    font-size: 12px;
+}
+
+tr, th, td {
+    padding: 15px;
+    border: 2px solid black;
+}
+
+th {
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    background-color: white;
+}
+
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+tfoot tr th:first-child {
+    text-align: center;
+}
